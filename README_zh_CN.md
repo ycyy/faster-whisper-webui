@@ -38,6 +38,11 @@ pip install -r requirements.txt
     ├─files
     └─__pycache__
 ```
+### 模型下载地址
+
+[faster-whisper](https://huggingface.co/guillaumekln)
+
+[silero-vad](https://github.com/snakers4/silero-vad)
 
 您可以在Windows 10/11上找到安装详细说明： [here (PDF)](docs/windows/install_win10_win11.pdf).
 

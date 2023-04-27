@@ -38,6 +38,11 @@ The project model is loaded locally and requires creating a `models` directory i
     ├─files
     └─__pycache__
 ```
+### model download path
+
+[faster-whisper](https://huggingface.co/guillaumekln)
+
+[silero-vad](https://github.com/snakers4/silero-vad)
 
 You can find detailed instructions for how to install this on Windows 10/11 [here (PDF)](docs/windows/install_win10_win11.pdf).
 
