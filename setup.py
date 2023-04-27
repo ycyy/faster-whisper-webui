@@ -17,7 +17,7 @@ def check_ffmpeg_path():
 
     for path in path_list:
         if 'ffmpeg' in path.lower() and 'bin' in path.lower():
-            ffmpeg_found = False
+            ffmpeg_found = True
             break
     
     return ffmpeg_found
