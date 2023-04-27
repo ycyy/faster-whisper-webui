@@ -78,4 +78,4 @@ python cli.py --model large --vad silero-vad --language Japanese "https://www.yo
 当处理多个文件时，UI还将生成一个“All_Output”zip文件，其中包含所有文本输出文件。
 
 ### 一键启动
-针对新手用户，可以在`Releases`页面下载免安装程序。点击`webui-start.bat`启动程序，然后在浏览器输入对应地址访问即可。
+针对新手用户，可以在`Releases`页面下载免安装程序。点击`webui-start.bat`启动程序，然后在浏览器输入对应地址访问即可(仅包含`small` 模型，其他模型自行下载)。

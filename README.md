@@ -202,4 +202,4 @@ sudo docker run -d --gpus=all -p 7860:7860 \
 registry.gitlab.com/aadnk/whisper-webui:latest
 ```
 ## One Key Start
-For novice users, an installer-free program can be downloaded from the Releases page. Click `webui-start.bat `to start the program, and then enter the corresponding address in the browser to access it.
+For novice users, an installer-free program can be downloaded from the Releases page. Click `webui-start.bat `to start the program, and then enter the corresponding address in the browser to access it(Only the small model is included, other models need to be downloaded separately).
