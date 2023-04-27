@@ -9,14 +9,6 @@ from src.modelCache import ModelCache
 from src.whisper.abstractWhisperContainer import AbstractWhisperCallback, AbstractWhisperContainer
 from src.utils import format_timestamp
 
-FASTER_WHISPER_MODELS_PATH={
-    "tiny": "modelsaster-whisper\tiny",
-    "base": "models\faster-whisper\base",
-    "small": "models\faster-whisper\small",
-    "medium": "models\faster-whisper\medium",
-    "large": "models\faster-whisper\large",
-    "large-v2": "models\faster-whisper\large-v2",
-}
 class FasterWhisperContainer(AbstractWhisperContainer):
     def __init__(self, model_name: str, device: str = None, compute_type: str = "float16",
                        download_root: str = None,
